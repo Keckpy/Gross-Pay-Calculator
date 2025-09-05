@@ -13,7 +13,7 @@ body {
     align-items: center;
     justify-content: center;
     height: 100vh;
-    font-size: 2rem;
+    font-size: 1.5rem;
     font-family: sans-serif;
 }
 
@@ -34,12 +34,12 @@ body {
 }
 
 .large {
-    font-size: 2rem;
+    font-size: 1.5rem;
 }
 
 
 label {
-    font-size: 2rem;
+    font-size: 1.5rem;
     padding-inline-end: 20px;
     
 }
@@ -58,7 +58,7 @@ label {
 }
 
 .small {
-    font-size: 1.5rem;
+    font-size: 1rem;
 }
 
 table {
@@ -68,7 +68,7 @@ table {
 th, td {
     /* border: 1px solid #d1e3e3; */
     padding: 10px;
-    font-size: 3rem;
+    font-size: 2rem;
 }
 
 .left {
