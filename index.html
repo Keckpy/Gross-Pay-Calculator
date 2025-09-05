@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Gross Pay Calculator</title>
+</head>
+<body>
+    <div class="center">
+        <h1>Gross Pay Calculator</h1>
+        <div class="right-align">
+            <div class="pad">
+            <label for="start" class="large">Start Time</label>
+            <input type="time" value="06:53" id="start" class="large">
+            </div>
+            <div class="pad">
+                <label for="end" class="large">End Time</label>
+                <input type="time" value="15:23" id="end" class="large">
+            </div>
+        </div>
+        <div>
+            <label for="meal-break" class="small">Canceled Meal Break?</label>
+            <input type="checkbox" id="cancel-meal">
+        </div>
+        <div>
+            <label for="second-shift" class="small">Second Shift OT</label>
+            <input type="checkbox" id="second-shift">
+        </div>
+        
+        <div class="center ">
+            <table>
+                <thead>
+                    <tr>
+                        <th class="left">Total Time</th>
+                        <th>Gross Income</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td id="hours" class="left"></td>
+                        <td id="pay"></td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        
+
+        <script src="script.js"></script>
+    </div>
+</body>
+</html>
