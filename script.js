@@ -5,6 +5,7 @@ const MCP2rate = 44.2198;
 
 let timeOutput = document.getElementById("hours");
 let payOutput = document.getElementById("pay");
+let overtimeOutput = document.getElementById("overtime");
 let startTime = document.getElementById("start");
 let endTime = document.getElementById("end");
 let mealCancel = document.getElementById("cancel-meal");
@@ -58,7 +59,7 @@ function update() {
     const grossPay = calculateGross(hrs);
     timeOutput.textContent = String(hrs) + "hrs";
     payOutput.textContent = "$" + String(grossPay.toFixed(2));
-
+    overtimeOutput.textContent = "$" + String((grossPay.toFixed(2) - 335.04).toFixed(2));
 }
 
 function calculateGross(hrs) {

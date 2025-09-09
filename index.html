@@ -19,11 +19,11 @@
                 <input type="time" value="15:23" id="end" class="large">
             </div>
         </div>
-        <div>
+        <div class="stack">
             <label for="meal-break" class="small">Canceled Meal Break?</label>
             <input type="checkbox" id="cancel-meal">
         </div>
-        <div>
+        <div class="stack">
             <label for="second-shift" class="small">Second Shift OT</label>
             <input type="checkbox" id="second-shift">
         </div>
@@ -43,10 +43,20 @@
                     </tr>
                 </tbody>
             </table>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Overtime Earnings</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td id="overtime"></td>
+                    </tr>
+                </tbody>
+            </table>
         </div>
-        
-
-        <script src="script.js"></script>
     </div>
+    <script src="script.js"></script>
 </body>
 </html>
